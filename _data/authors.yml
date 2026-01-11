@@ -1,9 +1,8 @@
 # Authors
 
-Name Name:
-  name        : "Shengxuan QUAN"
-  uri         : "https://shengxuanquan.github.io"
-  email       : "quanwithhydrophilic@gmail.com"
-  bio         : "This is the first name."
-  avatar      : "profile.jpg"
-  google_plus : "Name"
+  default:
+  name: "Shengxuan Quan"
+  uri: "https://shengxuanquan.github.io/"
+  email: "quanwithhydrophilic@gmail.com"
+  bio: "Computational immunoengineering; therapeutic peptide design; reproducible ML pipelines."
+  avatar: "profile.jpg"
