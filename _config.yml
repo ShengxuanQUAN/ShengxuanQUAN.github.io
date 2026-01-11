@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "sx_QUAN / Bio + Computational "
+title                    : "sx_Quan / Bio + Computational "
 title_separator          : "-"
 name                     : &name "Shengxuan QUAN"
 description              : &description "Computational Bio | Therapeutic peptide design | Reproducible ML pipelines"   # Update this with a general description of your site, this is the default if not overridden by a page
