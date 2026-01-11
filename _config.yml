@@ -18,22 +18,22 @@ description: "Computational Bio | Therapeutic peptide design | Reproducible ML p
 
 url: "https://shengxuanquan.github.io"
 baseurl: ""
-repository: "ShengxuanQuan/ShengxuanQuan.github.io"
+repository: "ShengxuanQUAN/ShengxuanQUAN.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-  author:
+author:
   name: "Shengxuan Quan"
-  bio: "Computational biology | therapeutic peptide design | reproducible ML pipelines."
-  location: "Beijing China"
-  TEL: "(+86)137-1814-9060"
+  bio: "Computational Biology | Therapeutic Peptide Design | Reproducible ML Pipelines."
+  location: "Beijing, China"
   email: "quanwithhydrophilic@gmail.com"
   avatar: "/images/profile.jpg"
   github: "ShengxuanQUAN"
-  googlescholar: ""   # 没有就留空
-  orcid: ""           # 没有就留空
-  pubmed: ""          # 没有就留空
+  googlescholar: ""
+  orcid: ""
+  pubmed: ""
+
 
 
   # Academic websites
