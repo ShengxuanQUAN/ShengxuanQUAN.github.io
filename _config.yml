@@ -25,7 +25,7 @@ repository: "ShengxuanQUAN/ShengxuanQUAN.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   name: "Shengxuan Quan"
-  bio: "Computational Biology | Therapeutic Peptide Design | Reproducible ML Pipelines."
+  bio: "Computational Biology | Reproducible ML Pipelines"
   location: "Beijing, China"
   email: "quanwithhydrophilic@gmail.com"
   avatar: "/images/profile.jpg"
