@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/CV_Shengxuan_Quan.pdf)
+
+
 Education
 ======
 * Exchange student in U.S , University of California, Berkeley, 2024
