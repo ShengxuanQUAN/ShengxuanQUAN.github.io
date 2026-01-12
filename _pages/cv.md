@@ -11,16 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Exchange student in U.S , University of California, Berkeley, 2024
+* B.S. in France, University of Evry Paris-Saclay, 2026 (expected)
+* B.S. in China, Huazhong University of Science and Technology (HUST), 2026 (expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2024: internship
+  * Peking University Institute for Global Health and Development
+  * Duties includes: data curation and analysis
+  * Supervisor: Prof. SUN Yu
 
 * Fall 2015: Research Assistant
   * GitHub University
@@ -41,24 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Volunteering Work & Activities
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Radiotherapy Department, Beijing Shijitan Hospital
+* Hostess, Wuhan HUST-Bio symposium
