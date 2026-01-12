@@ -5,20 +5,27 @@ permalink: /portfolio/amp-generative/
 excerpt: "WAE + CLaSS pipeline for controllable novel AMP generation; improved robustness and multi-objective learning."
 ---
 
+
 ### Problem
-(2–3 sentences: what problem, why it matters)
+
+**Antimicrobial resistance (AMR)** is a growing global health threat that undermines the effectiveness of existing antibiotics and increases morbidity, mortality, and healthcare burden. **Antibacterial peptides (AMPs)** offer a promising alternative: many exhibit broad-spectrum activity and can also modulate host immune responses, providing mechanisms that may reduce selective pressure and complement conventional antibiotics.
+
+However, traditional AMP discovery and optimization are often **costly and low-throughput**, relying on limited motif families and incremental modifications of known scaffolds. This constraint makes it difficult to systematically explore the vast peptide sequence–structure space and to rapidly identify candidates with balanced properties. **AI-driven generative modeling** provides a scalable route to expand exploration, generate novel peptide conformations, and prioritize candidates under multi-objective constraints—offering a feasible computational path toward next-generation anti-infective design.
+
+**In this project, I reproduced a controllable generative pipeline (WAE + CLaSS) to support AMP design and diagnosis, with optimization on robustness, bias analysis, and multi-objective controllability.**
+
 
 ### Approach
-- Model: WAE + CLaSS (controllable generation)
-- Data: curated AMP datasets; schema harmonization; labels
-- Evaluation: distributional diagnostics, property-guidance, failure mode analysis
+- Model: Wasserstein Autoencoder (WAE) + Controlled Latent attribute Space Sampling (CLaSS)
+- Data: curated short peptide datasets; schema harmonization; labels
+- Evaluation: distributional diagnostics, property-guidance .......
 - Figure
 <p><strong>Method flow chart</strong></p>
 <img src="/images/flowchart.png" alt="Method" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
 
 ### Evaluation & Reflection (based on test datasets)
 - Diagnostic Evaluation
-- Length & aa composition analysis
+- Distributional Diagnostics
 <p><strong>Bias analysis of generated AMPs</strong></p>
 <img src="/images/bias.png" alt="Bias analysis" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
 
