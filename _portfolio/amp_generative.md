@@ -14,6 +14,9 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 
 **In this project, I reproduced a controllable generative pipeline (WAE + CLaSS) to support AMP design and diagnosis, with optimization on robustness, bias analysis, and multi-objective controllability.**
 
+### References
+- Das, P., Sercu, T., Wadhawan, K., *et al.* (2021). **Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations.** *Nature Biomedical Engineering, 5*(6), 613–623. https://doi.org/10.1038/s41551-021-00689-x (PMID: 33707779)
+
 
 ### Approach
 - Model: Wasserstein Autoencoder (WAE) + Controlled Latent attribute Space Sampling (CLaSS)
