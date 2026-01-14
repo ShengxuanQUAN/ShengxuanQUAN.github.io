@@ -37,7 +37,7 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 <img src="/images/bias.png" alt="Bias analysis" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
 
 <!-- Training Loss (TensorBoard) -->
-<h4>Training Loss Curves (TensorBoard)</h4>
+<p><strong>Training Loss Curves (TensorBoard)</strong></p>
 
 <p>
   The loss curves below were exported from TensorBoard. Because the curated dataset is small,
