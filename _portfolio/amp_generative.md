@@ -26,7 +26,13 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 <p><strong>Method flow chart</strong></p>
 <img src="/images/flowchart.png" alt="Method" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
 
-### Evaluation & Reflection (based on test datasets)
+### Key Contributions (ongoing)
+- Reproduced a WAE-based AMP generation pipeline and validated end-to-end training on a small curated dataset.
+- Implemented dataset standardization and preprocessing (tokenization, splitting, export) for reproducible experiments.
+- Built diagnostics for generated sequences (distributional diagnostics) and identified short-length bias in Phase 1 outputs.
+
+
+### Evaluation & Reflection ( Small curated dataset test)
 - Diagnostic Evaluation
 - Distributional Diagnostics
 <p><strong>Bias analysis of generated AMPs</strong></p>
