@@ -47,7 +47,7 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
   <figure style="margin: 0;">
-    <img src="./images/Loss01.png" alt="TensorBoard: total training loss"
+    <img src="/images/Loss01.png" alt="TensorBoard: total training loss"
          style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
     <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
       TensorBoard export: total training loss (late-stage divergence under small-data regime).
@@ -55,7 +55,7 @@ However, traditional AMP discovery and optimization are often **costly and low-t
   </figure>
 
   <figure style="margin: 0;">
-    <img src="./images/loss02.png" alt="TensorBoard: reconstruction loss"
+    <img src="/images/loss02.png" alt="TensorBoard: reconstruction loss"
          style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
     <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
       TensorBoard export: reconstruction loss.
@@ -63,7 +63,7 @@ However, traditional AMP discovery and optimization are often **costly and low-t
   </figure>
 
   <figure style="margin: 0;">
-    <img src="./images/loss03.png" alt="TensorBoard: regularization loss"
+    <img src="/images/loss03.png" alt="TensorBoard: regularization loss"
          style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
     <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
       TensorBoard export: regularization/penalty term (instability becomes more apparent late in training).
