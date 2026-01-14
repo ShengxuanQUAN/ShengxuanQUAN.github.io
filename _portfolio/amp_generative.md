@@ -47,7 +47,7 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
   <figure style="margin: 0;">
-    <img src="./images/loss01.png" alt="TensorBoard: total training loss"
+    <img src="./images/Loss01.png" alt="TensorBoard: total training loss"
          style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
     <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
       TensorBoard export: total training loss (late-stage divergence under small-data regime).
