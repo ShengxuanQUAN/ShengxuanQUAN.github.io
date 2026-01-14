@@ -35,41 +35,43 @@ However, traditional AMP discovery and optimization are often **costly and low-t
 - Distributional Diagnostics
 <p><strong>Bias analysis of generated AMPs</strong></p>
 <img src="/images/bias.png" alt="Bias analysis" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
+
 <!-- Training Loss (TensorBoard) -->
 <h4>Training Loss Curves (TensorBoard)</h4>
 
 <p>
-  The loss curves below were exported from TensorBoard. With a small curated dataset, 
-  training for too many iterations led to late-stage instability and loss divergence 
-  (i.e., the model began to overfit and the optimization became noisy), highlighting 
-  the limitations of Phase 1 pretraining under data scarcity.
+  The loss curves below were exported from TensorBoard. Because the curated dataset is small,
+  running too many training iterations led to late-stage instability and loss divergence,
+  indicating overfitting and noisy optimization under data scarcity.
 </p>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
-  <figure style="margin: 0;">
-    <img src="/images/Loss01.png" alt="TensorBoard: total training loss"
-         style="width: 50%; max-width: 520px; height: auto; border: 1px solid #ddd; border-radius: 6px;">
-    <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
-      TensorBoard export: total training loss (late-stage divergence under small-data regime).
-    </figcaption>
-  </figure>
-
-  <figure style="margin: 0;">
-    <img src="/images/loss02.png" alt="TensorBoard: reconstruction loss"
-         style="width: 50%; max-width: 520px; height: auto; border: 1px solid #ddd; border-radius: 6px;">
-    <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
-      TensorBoard export: reconstruction loss.
-    </figcaption>
-  </figure>
-
-  <figure style="margin: 0;">
-    <img src="/images/loss03.png" alt="TensorBoard: regularization loss"
-         style="width: 50%; max-width: 520px; height: auto; border: 1px solid #ddd; border-radius: 6px;">
-    <figcaption style="font-size: 0.95em; color: #555; margin-top: 6px;">
-      TensorBoard export: regularization/penalty term (instability becomes more apparent late in training).
-    </figcaption>
-  </figure>
+<!-- Image 01 -->
+<div style="text-align: center; margin: 16px 0 26px 0; clear: both;">
+  <img src="/images/Loss01.png" alt="TensorBoard: total training loss"
+       style="width: 55%; max-width: 560px; height: auto; border: 1px solid #ddd; border-radius: 6px; display: inline-block;">
+  <div style="font-size: 0.95em; color: #555; margin-top: 8px;">
+    TensorBoard export: total training loss (late-stage divergence under a small-data regime).
+  </div>
 </div>
+
+<!-- Image 02 -->
+<div style="text-align: center; margin: 16px 0 26px 0; clear: both;">
+  <img src="/images/loss02.png" alt="TensorBoard: reconstruction loss"
+       style="width: 55%; max-width: 560px; height: auto; border: 1px solid #ddd; border-radius: 6px; display: inline-block;">
+  <div style="font-size: 0.95em; color: #555; margin-top: 8px;">
+    TensorBoard export: reconstruction loss.
+  </div>
+</div>
+
+<!-- Image 03 -->
+<div style="text-align: center; margin: 16px 0 26px 0; clear: both;">
+  <img src="/images/loss03.png" alt="TensorBoard: regularization loss"
+       style="width: 55%; max-width: 560px; height: auto; border: 1px solid #ddd; border-radius: 6px; display: inline-block;">
+  <div style="font-size: 0.95em; color: #555; margin-top: 8px;">
+    TensorBoard export: regularization/penalty term (instability becomes more apparent late in training).
+  </div>
+</div>
+
 
 ### Next steps
 Generalization, mitigate α-helix bias, stronger multi-objective constraints.
